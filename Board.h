@@ -9,7 +9,6 @@ public:
 	void cekregion();
 	void cekrow();
 	void cekcolumn();
-	void fill(int x, int y, int value);
-	void hapus(int x, int y);
+	void fillCell(int, int, int);
+	void deleteCell(int, int);
 };
-
