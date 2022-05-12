@@ -1,7 +1,7 @@
 #include "Player.h"
 
 Player::Player() {
-	username = "Player 1";
+	username = " ";
 	score = 0;
 }
 
