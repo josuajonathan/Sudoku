@@ -2,14 +2,15 @@
 #include "Command.h"
 #include "Board.h"
 
+//Subclass
 class CommandFill : public Command
 {
 private:
 	Board mboard;
 
-public :
+public:
 	void setboard(Board);
 	Board getboard();
-	void undo(int x, int y, int value);
-	void execute(int x, int y);
+	void undo(int, int);
+	void execute(int, int, int);
 };
