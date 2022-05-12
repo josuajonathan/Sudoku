@@ -1,7 +1,8 @@
 #include "Player.h"
 
 Player::Player() {
-	username = "nama";
+	username = "Player 1";
+	score = 0;
 }
 
 void Player::setusername(string username)
@@ -14,7 +15,7 @@ string Player::getusername()
 	return username;
 }
 
-void Player::getscore()
+int Player::getscore()
 {
-
+	return score;
 }
