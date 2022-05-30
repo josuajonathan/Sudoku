@@ -5,13 +5,15 @@ using namespace std;
 
 class Player
 {
-protected:
+private:
 	string username;
 	int score;
 
-public:
-	Player();
+public :
 	void setusername(string);
 	string getusername();
-	int getscore();
+	
+	//void setscore(int);
+	//int getscore();
 };
+
