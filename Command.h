@@ -1,5 +1,5 @@
 #pragma once
-//Class Interface
+//class interface
 
 class Command
 {
