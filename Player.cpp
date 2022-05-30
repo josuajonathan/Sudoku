@@ -1,21 +1,17 @@
 #include "Player.h"
 
-Player::Player() {
-	username = " ";
-	score = 0;
-}
-
-void Player::setusername(string username)
-{
+void Player::setusername(string) {
 	this->username = username;
 }
 
-string Player::getusername()
-{
+string Player::getusername() {
 	return username;
 }
 
-int Player::getscore()
-{
-	return score;
+/*void Player::setscore(int) {
+	this->score = score;
 }
+
+int Player::getscore() {
+	return score;
+}*/
