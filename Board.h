@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+using namespace std;
+
 class Board
 {
 private:
@@ -12,3 +15,4 @@ public:
 	void fillCell(int, int, int);
 	void deleteCell(int, int);
 };
+
