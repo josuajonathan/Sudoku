@@ -5,14 +5,14 @@ using namespace std;
 class Board
 {
 private:
-	int board[9][9];
+	int Papan[9][9];
 
 public:
+	Board();
 	void generatenum();
 	void cekregion();
-	void cekrow();
+	bool cekrow();
 	void cekcolumn();
-	void fillCell(int, int, int);
-	void deleteCell(int, int);
+	void fill(int, int, int);
+	void hapus(int, int);
 };
-
